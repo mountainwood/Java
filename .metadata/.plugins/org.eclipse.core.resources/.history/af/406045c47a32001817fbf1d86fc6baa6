@@ -1,0 +1,16 @@
+package hw1;
+
+public class question04 {
+
+	public static void main(String[] args) {
+		double hr = 0;					//计
+		double salary = 120;			//羱
+		double eSalary60 = 1;			//60ず╰计
+		double eSalary6180 = 1.25;		//6180╰计
+		double eSalary81 = 1.5;			//81╰计
+		
+		
+
+	}
+
+}

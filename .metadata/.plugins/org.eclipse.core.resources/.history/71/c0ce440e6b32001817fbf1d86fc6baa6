@@ -1,0 +1,22 @@
+package hw1;
+
+public class question01 {
+
+	public static void main(String[] args) {
+		String type = "industry"; 	 	//industry ，區分家庭以及工業用電
+		double electricity = 100;		//用電度數
+		double industryDegree = 0.45;
+		double value = 0;
+		if (type.equals("industry")) {			//工業用電類別
+												//switch無法使用boolean
+			value = electricity * industryDegree;
+			System.out.printf("度數為：%d度，電費總計%d元%n", electricity, value);
+
+		}else{		//家庭用電
+			//System.out.printf("度數為：%d度，電費總計%d元");
+			
+		}
+
+	}
+
+}

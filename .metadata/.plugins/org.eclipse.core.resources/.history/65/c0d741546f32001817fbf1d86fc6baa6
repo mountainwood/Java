@@ -1,0 +1,27 @@
+package hw1;
+
+public class question01 {
+
+	public static void main(String[] args) {
+		//String type = "industry"; //type.equals("industry")	 	//industry 跋だ產畑の穨ノ筿
+		int type = 0 ;
+		double electricity = 100;		//ノ筿计
+		double industryDegree = 0.45;
+		double homeDegree240 = 0.15;
+		double value = 0;
+		if (type == 1) {			//穨ノ筿摸
+												//switch礚猭ㄏノboolean
+			value = electricity * industryDegree;	//璸衡筿禣筿禣 = 禣瞯 * 计 
+			System.out.printf("穨计%d筿禣羆璸%.4fじ%n", electricity, value);	//陪ボ穨ノ筿计
+
+		}else{		//產畑ノ筿
+			if (electricity <= 240) {		//计 240 
+				value = electricity * homeDegree240;	//璸衡筿禣筿禣 = 禣瞯 * 计
+			}
+			System.out.printf("產畑计%f筿禣羆璸%.4fじ",electricity, value);	//陪ボ產畑ノ筿计
+			
+		}
+
+	}
+
+}

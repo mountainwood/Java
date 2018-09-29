@@ -1,0 +1,14 @@
+package hw1;
+
+public class question04 {
+
+	public static void main(String[] args) {
+		double hr = 0;
+		double salary = 120;
+		double eSalary60 = 1;
+		double eSalary6180 = 1.25;
+		double eSalary81 = 1.5;
+
+	}
+
+}

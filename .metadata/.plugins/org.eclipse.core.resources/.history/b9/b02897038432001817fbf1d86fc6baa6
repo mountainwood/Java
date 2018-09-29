@@ -1,0 +1,21 @@
+package hw1;
+
+public class question04LeapYear {
+
+	public static void main(String[] args) {
+		int LeapYear = 4;
+		if(LeapYear % 4000 == 0) {		//Year為4000的倍數-不閏
+			System.out.println("不是潤年");
+		}else {
+			if (LeapYear % 400 == 0) {	//Year為400的倍數-是潤年
+				System.out.println("是潤年");
+			}else {
+				if (LeapYear % 100 ==0) {		//Year為100的位數-是潤年
+					System.out.println("是潤年");
+				}
+			}
+		}
+
+	}
+
+}

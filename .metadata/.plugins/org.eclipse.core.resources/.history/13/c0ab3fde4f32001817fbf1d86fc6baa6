@@ -1,0 +1,28 @@
+package com.iii.cb101.mt;
+
+public class operator {
+
+	public static void main(String[] args) {
+		int sec = 3601;
+		final int SEC_PER_MIN = 60;
+		final int SEC_PER_HR = 60;
+		System.out.println(sec + "秒 =" 
+		+ sec / SEC_PER_HR / SEC_PER_MIN + "時" 
+		+ sec / SEC_PER_MIN + "分" + sec % SEC_PER_MIN + "秒"	//錯
+		);
+		
+		//單元運算子
+		int x = 3, y = 4, z;
+		z = ++x * y;
+		//z = x++ * y;	//先 x=x+1, 再y=x*y
+		//z = ++x * y;	//先z=x*y, 再x+1=x
+		//z = (x++) * y;
+		//z = x++ + y; 寫成下式較好
+		//z = (X++)+7;
+		
+		//z = x + (++y);
+		System.out.println("x =" + x + ", " + "y =" + y + ", " + "z = " + z );
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package hw1;
+
+public class question01test {
+
+	public static void main(String[] args) {
+		
+		//int type = 1;
+		int electricity = 100;		//用電度數
+		double industryDegree = 0.45;
+		double value = 0;
+		value = electricity * industryDegree;
+		System.out.printf("度數為：%d度，電費總計%d元%n", electricity, value);
+
+	}
+
+}

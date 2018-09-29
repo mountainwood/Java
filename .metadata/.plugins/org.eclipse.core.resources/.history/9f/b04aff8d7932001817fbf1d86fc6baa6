@@ -1,0 +1,25 @@
+package hw1;
+
+public class question02 {
+
+	public static void main(String[] args) {
+		int season = 1;		//©u¸`
+		switch(season) {
+			case 1: System.out.println("¥V©u");
+			case 2: System.out.println("¥V©u");
+			case 3: System.out.println("¬K©u");
+			case 4: System.out.println("¬K©u");
+			case 5: System.out.println("¬K©u");
+			case 6: System.out.println("®L©u");
+			case 7: System.out.println("®L©u");
+			case 8: System.out.println("¬î©u");
+			case 9: System.out.println("¬î©u");
+			case 10: System.out.println("¬î©u");
+			case 11: System.out.println("¬î©u");
+			case 12: System.out.println("¥V©u");
+			default:System.out.println("¿é¤J¿ù»~¡C");
+		}
+
+	}
+
+}

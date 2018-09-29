@@ -1,0 +1,46 @@
+package com.iii.cb101.mt;
+
+public class printDEMO {
+	public static void main(String[] args) {	
+	System.out.printf("-%5d-%n", 123);				
+	//-  123-
+	/*d:表示10進位，要5個位數，多的會補上空白 */
+	System.out.printf("-%+5d-%n", 123);				
+	//- +123-
+	/*表示正數 */
+	
+	System.out.printf("-%X-%n", 123);				
+	//-7B-
+	/*16進位，此法不好若有64，那無法判斷是10進位還16進位 */
+	System.out.printf("-%#X-%n", 123);				
+	//-0X7B-
+	/*16進位，前面印出0X、0x(以-%#x-%n就會印出小寫)*/
+	
+	System.out.printf("-%f-%n", 123.678);			
+	//-123.678000-
+	
+	System.out.printf("-%10.2f-%n", 123.678);		
+	//-    123.68-
+	
+	System.out.printf("-%-10.1f-%n", 12.678);		
+	//-12.7      -
+	
+	System.out.printf("-%010.2f-%n", 123.678);		
+	//-0000123.68-
+	
+	System.out.printf("-%10.2E-%n", 123.678);		
+	//-  1.24E+02-
+	
+	System.out.printf("-%,10.2f-%n", 123.678);		
+	//-    123.68-
+	
+	System.out.printf("-%(10.1f-%n", 123.678);		
+	//-     123.7-
+	
+	System.out.printf("-%10s-%n", 123.678);			
+	//-   123.678-
+	
+	int x=2 , y=3;
+	System.out.printf("%d",x+y);
+	}
+}
